@@ -2,4 +2,4 @@
 ## Los cuatro fundamentos de POO
 ## Requisitos iniciales del sistema
 ## Casos de uso
-## Boceto inicial de diseño de clase
+## Boceto inicial de diseño de clases
