@@ -8,7 +8,8 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 ## [Unreleased]
 
 ### Added
-- [feature/Modelador-de-Casos-de-Uso] Creacion de los casos de uso mas sus actores 
+- [feature/Modelador-de-Casos-de-Uso] Creacion de los casos de uso mas sus actores
+
   PR: [#1](link) - @usuario1 (Coordinador / DevOps)
 
 - [feature/ia-prompts] Documentación de 5 prompts de IA.  
