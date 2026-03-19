@@ -9,7 +9,7 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
 ### Added
 - [feature/modelador-de-Casos-de-Uso] Creacion de casos de uso y desarrollo  
-  PR: [#1](link) - @alandox1 (Modelador de Casos de Uso)
+  PR: [#1](https://github.com/alandox1/SistemaTurnosMedicos/pull/13#issue-4104441764) - @alandox1 (Modelador de Casos de Uso)
 
 ### Changed
 
