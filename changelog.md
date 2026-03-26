@@ -20,6 +20,7 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [feature/estructura-base] Estructura inicial del proyecto.  
   PR: [#1](link) - @usuario1 (Coordinador / DevOps)
 
+
 ### Changed
 
 ### Fixed
@@ -30,3 +31,5 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
 
 ---
+
+## Cómo usar este archivo
