@@ -19,7 +19,7 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 ### Changed
   - [feature/diseniador-de-Clases] Creacion correcta del formato y boceto inicial de clases
 
-  PR: [#23](  ) - @alandox1 (Diseñador de Clases)
+  PR: [#23](https://github.com/alandox1/SistemaTurnosMedicos/pull/25) - @alandox1 (Diseñador de Clases)
 
 
 ### Fixed
