@@ -15,4 +15,4 @@ El proyecto consiste en el diseño y desarrollo de un Sistema de Gestión de Tur
 
 
 ## Diagramas y Diseños
-* [Anexos](anexos.md)
+* [Anexos](anexos/anexos.md)
