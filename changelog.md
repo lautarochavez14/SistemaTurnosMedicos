@@ -16,6 +16,10 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
   PR: [#13](https://github.com/alandox1/SistemaTurnosMedicos/pull/13#issue-4104441764) - @alandox1 (Modelador de Casos de Uso)
 
+-- [feature/Documentador-y-coordinador-de-repositorio] Coordinacion de repositorio, mergee segun las correcciones dadas
+
+  PR: [#24](https://github.com/alandox1/SistemaTurnosMedicos/pull/24) - @lautarochavez14 (Documentador y coordinador de repositorio)
+
 ### Changed
   - [feature/diseniador-de-Clases] Creacion correcta del formato y boceto inicial de clases
 
