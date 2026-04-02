@@ -18,7 +18,7 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
 - [feature/documentador-y-coordinador-de-repositorio] Contenido mergeado correctamente
 
-  PR: [#13]( ) - @Lautarochavez14 (Documentador y coordinador de repositorio)
+  PR: [#33](https://github.com/alandox1/SistemaTurnosMedicos/pull/33) - @Lautarochavez14 (Documentador y coordinador de repositorio)
 
 ### Changed
   - [feature/diseniador-de-Clases] Creacion correcta del formato y boceto inicial de clases
