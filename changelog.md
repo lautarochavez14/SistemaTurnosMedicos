@@ -10,11 +10,11 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 ### Added
 - [feature/analista-de-Requerimientos] Requisitos iniciales del sistema  
 
-  PR: [#1](https://github.com/alandox1/SistemaTurnosMedicos/pull/14) - @vb534 (Análisis de Requerimientos)
+  PR: [#14](https://github.com/alandox1/SistemaTurnosMedicos/pull/14) - @vb534 (Análisis de Requerimientos)
   
   
 - [feature/diseniador-de-Clases] Creacion de boceto inicial de clases
-- 
+
   PR: [#15](https://github.com/alandox1/SistemaTurnosMedicos/pull/15#issue-4140070067) - @alandox1 (Diseñador de Clases)
   
 - [feature/modelador-de-Casos-de-Uso] Creacion de casos de uso y desarrollo
