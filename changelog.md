@@ -14,7 +14,7 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
   
   
 - [feature/diseniador-de-Clases] Creacion de boceto inicial de clases
-- 
+
   PR: [#15](https://github.com/alandox1/SistemaTurnosMedicos/pull/15#issue-4140070067) - @alandox1 (Diseñador de Clases)
   
 - [feature/modelador-de-Casos-de-Uso] Creacion de casos de uso y desarrollo
