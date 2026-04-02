@@ -1,3 +1,4 @@
+
 # Changelog
 
 Este archivo se actualiza con cada Pull Request para registrar avances y correcciones.
@@ -7,35 +8,27 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 ## [Unreleased]
 
 ### Added
-- [feature/estructura-base] Estructura inicial del proyecto.  
-  PR: [#1](link) - @usuario1 (Coordinador / DevOps)
+- [feature/diseniador-de-Clases] Creacion de boceto inicial de clases
 
-- [feature/ia-prompts] Documentación de 5 prompts de IA.  
-  PR: [#4](link) - @usuario4 (Especialista en IA)
+  PR: [#15](https://github.com/alandox1/SistemaTurnosMedicos/pull/15#issue-4140070067) - @alandox1 (Diseñador de Clases)
+  
+- [feature/modelador-de-Casos-de-Uso] Creacion de casos de uso y desarrollo
+
+  PR: [#13](https://github.com/alandox1/SistemaTurnosMedicos/pull/13#issue-4104441764) - @alandox1 (Modelador de Casos de Uso)
 
 ### Changed
-- [feature/readme-y-mockup] Actualización README.md con mockup.  
-  PR: [#3](link) - @usuario3 (Documentador / Diseñador UX)
+  - [feature/diseniador-de-Clases] Creacion correcta del formato y boceto inicial de clases
 
-- [feature/index-html] Estructura HTML5 básica.  
-  PR: [#2](link) - @usuario2 (Desarrollador Frontend)
+  PR: [#23](https://github.com/alandox1/SistemaTurnosMedicos/pull/25) - @alandox1 (Diseñador de Clases)
+
+  - [feature/diseniador-de-Clases] Correccion de error al eliminar la carpeta anexos
+
+  PR: [#28](https://github.com/alandox1/SistemaTurnosMedicos/pull/28) - @alandox1 (Diseñador de Clases)
+
 
 ### Fixed
-- [feature/fix-rutas] Corrección de rutas en README.md.  
-  PR: [#5](link) - @usuario3 (Documentador / Diseñador UX)
 
 ---
 
-## [Release Actividad Obligatoria N°1] - 2025-08-10
+## [Release Actividad Obligatoria N°1] - 2026-08-10
 
-Aquí se listarán todas las Pull Requests que entraron en esta release.  
-Actualmente están en la sección [Unreleased] porque sólo están en la rama `develop`.
-
----
-
-## Cómo usar este archivo
-
-- Para cada PR, simplemente agregar una línea breve en la sección correspondiente a su cambio (Added, Changed, Fixed).  
-- No es necesario escribir párrafos, sólo una frase corta + link a PR y responsable con rol.  
-- Al hacer la entrega final, copiar todo lo que está en **[Unreleased]** a una nueva sección con la fecha y nombre de la entrega (release).  
-- Mantener el orden y formato para facilitar el seguimiento.

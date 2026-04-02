@@ -10,8 +10,9 @@ El proyecto consiste en el diseño y desarrollo de un Sistema de Gestión de Tur
 | Nombre y Apellido | Matrícula | Usuario de GitHub |
 |:-----| -----: | ------: |
 | Alan Diaz | 152841 | alandox1
-| Lautaro Chavez | 151222  | lautarochavez14 
+| Lautaro Chavez |  | lautarochavez14 
 | Valentino Bonastre |  | vb534
 
+
 ## Diagramas y Diseños
-* [Anexos](Anexos/anexos.md)
+* [Anexos](anexos/anexos.md)
