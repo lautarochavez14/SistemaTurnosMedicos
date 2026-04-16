@@ -19,7 +19,7 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
   
 - [feature/modelador-de-Casos-de-Uso] Creacion de casos de uso y desarrollo
 
-  PR: [#13](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/13#issue-4104441764) - @alandox1 (Modelador de Casos de Uso)
+  PR: [#50](https://github.com/lautarochavez14/SistemaTurnosMedicos/issues/50) - @britezacostaalexis-pixel  @lautarochavez14 (Modelador de Casos de Uso)
 
 - [feature/documentador-y-coordinador-de-repositorio] Contenido mergeado correctamente
 
