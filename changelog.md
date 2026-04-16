@@ -32,7 +32,7 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
   - [feature/diseniador-de-Clases] Correccion de error al eliminar la carpeta anexos
 
-  PR: [#28](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/28) - @alandox1 (Diseñador de Clases)
+  PR: [#28](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/28) - @alandox1 (diseniador de clases)
 
 
 
@@ -46,7 +46,7 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 - [feature/documentador-y-coordinador-de-repositorio]
 - PR: [#48](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/48) - @lautarochavez14 (documentador y coordinador)
 
-- PR: [#49](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/49) - @britezacostaalexis-pixel (diseñador de clases)
+- PR: [#49](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/49) - @britezacostaalexis-pixel (especialista en escenarios de casos de uso)
 ---
 
 ## [Release Actividad Obligatoria N°1] - 2026-08-10
