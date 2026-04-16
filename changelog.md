@@ -34,7 +34,7 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
   PR: [#28](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/28) - @alandox1 (diseniador de clases)
 
-
+ PR: [#51](https://github.com/lautarochavez14/SistemaTurnosMedicos/issues/51)- @britezacostaalexis-pixel(especialista en escenarios de casos de uso)
 
 ## [Fixed]
 
