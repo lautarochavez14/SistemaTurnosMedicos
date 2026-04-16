@@ -9,8 +9,9 @@ El proyecto consiste en el diseño y desarrollo de un Sistema de Gestión de Tur
 ## Integrantes
 | Nombre y Apellido | Matrícula | Usuario de GitHub |
 |:-----| -----: | ------: |
-| Lautaro Chavez |  | lautarochavez14 
+| Lautaro Chavez | 151222 | lautarochavez14 
 | Valentino Bonastre |  | vb534
+|Alexis Britez | 158100 | 
 
 
 ## Diagramas y Diseños
