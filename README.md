@@ -9,8 +9,8 @@ El proyecto consiste en el diseño y desarrollo de un Sistema de Gestión de Tur
 ## Integrantes
 | Nombre y Apellido | Matrícula | Usuario de GitHub |
 |:-----| -----: | ------: |
-| Alexis Britez | 158100 | britezacostaalexis-pixel
-| Lautaro Chavez | 151222 | lautarochavez14 
+| Alexis Britez | 158100 | britezacostaalexis-pixel| especialista en escenarios de casos de uso | modelador de casos de uso|
+| Lautaro Chavez | 151222 | lautarochavez14 | coordinador y documentador | modelador de casos de uso|
 | Valentino Bonastre | 159650 | vb534
 
 
