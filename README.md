@@ -7,8 +7,8 @@
 El proyecto consiste en el diseño y desarrollo de un Sistema de Gestión de Turnos para el consultorio médico.El objetivo principal es realizar la transición de un modelo de gestión manual (basado en un cuaderno físico y un calendario de pared) a una plataforma digital centralizada. Esta digitalización busca eliminar errores comunes como la superposición de horarios (doble reserva), la falta de claridad en la agenda y la pérdida de tiempo en la comunicación de recordatorios.
 
 ## Integrantes
-| Nombre y Apellido | Matrícula | Usuario de GitHub | roll |
-|:-----| -----: | ------: |  ---------:  |
+| Nombre y Apellido | Matrícula | Usuario de GitHub | roll |roll|
+|:-----| -----: | ------: |  ---------:  |-------:|
 | Alexis Britez | 158100 | britezacostaalexis-pixel| especialista en escenarios de casos de uso | modelador de casos de uso|
 | Lautaro Chavez | 151222 | lautarochavez14 | coordinador y documentador | modelador de casos de uso|
 | Valentino Bonastre | 159650 | vb534|     |
