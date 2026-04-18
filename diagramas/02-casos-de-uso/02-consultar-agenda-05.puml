@@ -1,0 +1,32 @@
+@startuml UC_Consultar_Agenda
+left to right direction
+skinparam packageStyle rectangle
+
+actor Recepcionista
+actor Profesional
+
+package "Consultar Agenda" {
+  usecase "Consultar Agenda" as UC_Consultar
+  usecase "Seleccionar Vista" as UC_Vista
+  usecase "Recuperar Eventos" as UC_Recuperar
+  usecase "Aplicar Código de Colores" as UC_Colores
+  usecase "Navegar Período" as UC_Navegar
+  usecase "Mostrar Vista Rápida" as UC_VistaRapida
+  usecase "Mostrar Bloqueos" as UC_Bloqueos
+  usecase "Mostrar Sobreturnos" as UC_Sobreturnos
+}
+
+Recepcionista --> UC_Consultar
+Profesional --> UC_Consultar
+
+UC_Consultar --> UC_Vista
+UC_Vista --> UC_Recuperar
+
+UC_Recuperar .> UC_Bloqueos : <<include>>
+UC_Recuperar .> UC_Sobreturnos : <<include>>
+UC_Recuperar --> UC_Colores
+
+UC_Colores --> UC_Navegar
+UC_Navegar --> UC_VistaRapida
+
+@enduml

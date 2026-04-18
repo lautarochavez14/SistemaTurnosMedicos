@@ -1,0 +1,32 @@
+@startuml UC_Reprogramar_Turno
+left to right direction
+skinparam packageStyle rectangle
+
+actor Recepcionista
+
+package "Reprogramar Turno" {
+  usecase "Reprogramar Turno" as UC_Reprogramar
+  usecase "Buscar Turno Original" as UC_BuscarOriginal
+  usecase "Mostrar Disponibilidad" as UC_MostrarDisp
+  usecase "Validar Nueva Fecha" as UC_Validar
+  usecase "Liberar Bloque Anterior" as UC_Liberar
+  usecase "Reservar Nuevo Espacio" as UC_Reservar
+  usecase "Ingreso Motivo (Opcional)" as UC_Motivo
+  usecase "Notificar Paciente" as UC_Notificar
+  usecase "Mantener Trazabilidad" as UC_Trazabilidad
+}
+
+Recepcionista --> UC_Reprogramar
+
+UC_Reprogramar --> UC_BuscarOriginal
+UC_BuscarOriginal --> UC_Motivo
+UC_Motivo --> UC_MostrarDisp
+
+UC_MostrarDisp .> UC_Validar : <<include>>
+
+UC_Validar --> UC_Liberar
+UC_Liberar --> UC_Reservar
+UC_Reservar .> UC_Trazabilidad : <<include>>
+UC_Reservar --> UC_Notificar
+
+@enduml

@@ -1,0 +1,30 @@
+@startuml UC_Registrar_Llegada
+left to right direction
+skinparam packageStyle rectangle
+
+actor Recepcionista
+actor Profesional
+actor Paciente
+
+package "Registrar Llegada de Paciente" {
+  usecase "Registrar Llegada" as UC_Llegada
+  usecase "Buscar Turno del Día" as UC_BuscarTurno
+  usecase "Capturar Hora Llegada" as UC_CapturarHora
+  usecase "Actualizar Estado a Presente" as UC_ActualizarEstado
+  usecase "Registrar Hora Real" as UC_HoraReal
+  usecase "Notificar Profesional" as UC_NotificarProf
+}
+
+Recepcionista --> UC_Llegada
+Paciente ..> UC_Llegada : se presenta
+
+UC_Llegada --> UC_BuscarTurno
+UC_Llegada --> UC_CapturarHora
+UC_CapturarHora .> UC_HoraReal : <<include>>
+
+UC_CapturarHora --> UC_ActualizarEstado
+UC_ActualizarEstado --> UC_NotificarProf
+
+Profesional <.. UC_NotificarProf : recibe notificación
+
+@enduml
