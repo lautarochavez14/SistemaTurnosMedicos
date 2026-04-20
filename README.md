@@ -8,11 +8,12 @@ El proyecto consiste en el diseño y desarrollo de un Sistema de Gestión de Tur
 
 ## Integrantes
 | Nombre y Apellido | Matrícula | Usuario de GitHub |
-| Matias Caucota |  | matiasmg3232-beep’s |
+
 | Alexis Britez Acosta| -----: |britezacostaalexis-pixel |
-| Lautaro Chavez | 151222 | lautarochavez14 
-| Valentino Bonastre | 159650 | vb534
+| Lautaro Chavez | 151222 | lautarochavez14 |
+| Milenka |  | @eternalnight04|
 
 
 ## Diagramas y Diseños
 * [Anexos](anexos/anexos.md)
+
