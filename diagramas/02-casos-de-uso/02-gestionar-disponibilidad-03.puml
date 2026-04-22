@@ -1,0 +1,32 @@
+@startuml UC_Gestionar_Disponibilidad
+left to right direction
+skinparam packageStyle rectangle
+
+actor Recepcionista
+actor Profesional
+
+package "Gestionar Disponibilidad" {
+  usecase "Gestionar Disponibilidad" as UC_Disponibilidad
+  usecase "Seleccionar Tipo Bloqueo" as UC_TipoBloqueo
+  usecase "Ingresar Datos Bloqueo" as UC_IngresarDatos
+  usecase "Verificar Conflictos" as UC_Conflictos
+  usecase "Mostrar Turnos Afectados" as UC_MostrarTurnos
+  usecase "Confirmar Operación" as UC_Confirmar
+  usecase "Actualizar Reglas Disponibilidad" as UC_ActualizarReglas
+  usecase "Actualizar Vista Agenda" as UC_ActualizarVista
+}
+
+Recepcionista --> UC_Disponibilidad
+Profesional --> UC_Disponibilidad
+
+UC_Disponibilidad --> UC_TipoBloqueo
+UC_TipoBloqueo --> UC_IngresarDatos
+UC_IngresarDatos .> UC_Conflictos : <<include>>
+
+UC_Conflictos --> UC_MostrarTurnos
+UC_MostrarTurnos --> UC_Confirmar
+
+UC_Confirmar --> UC_ActualizarReglas
+UC_ActualizarReglas --> UC_ActualizarVista
+
+@enduml

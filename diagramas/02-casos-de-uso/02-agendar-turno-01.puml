@@ -1,0 +1,36 @@
+@startuml UC_Agendar_Turno
+left to right direction
+skinparam packageStyle rectangle
+
+actor Recepcionista
+actor Paciente
+
+package "Agendar Turno" {
+  usecase "Agendar Turno" as UC_Agendar
+  usecase "Buscar Paciente" as UC_Buscar
+  usecase "Seleccionar Profesional" as UC_SelProf
+  usecase "Seleccionar Tipo de Consulta" as UC_TipoConsulta
+  usecase "Mostrar Disponibilidad" as UC_MostrarDisp
+  usecase "Validar Disponibilidad" as UC_Validar
+  usecase "Verificar Superposición" as UC_Superposicion
+  usecase "Registrar Turno" as UC_Registrar
+  usecase "Generar Recordatorio" as UC_Recordatorio
+}
+
+Recepcionista --> UC_Agendar
+Paciente ..> UC_Agendar : interesado en
+
+UC_Agendar --> UC_Buscar
+UC_Agendar --> UC_SelProf
+UC_Agendar --> UC_TipoConsulta
+UC_Agendar --> UC_MostrarDisp
+
+UC_MostrarDisp .> UC_Validar : <<include>>
+UC_MostrarDisp .> UC_Superposicion : <<include>>
+
+UC_MostrarDisp --> UC_Registrar
+UC_Registrar .> UC_Recordatorio : <<include>>
+
+UC_TipoConsulta --> UC_MostrarDisp
+
+@enduml
