@@ -9,9 +9,9 @@ El proyecto consiste en el diseño y desarrollo de un Sistema de Gestión de Tur
 ## Integrantes
 | Nombre y Apellido | Matrícula | Usuario de GitHub |
 |------:|-----:|-----:|
-| Alexis Britez Acosta| -----: |britezacostaalexis-pixel |
+| Alexis Britez Acosta| 158100 |britezacostaalexis-pixel |
 | Lautaro Chavez | 151222 | lautarochavez14 |
-| Milenka |  | @eternalnight04|
+| Milenka Vila| 157550 | @eternalnight04|
 
 
 ## Diagramas y Diseños
