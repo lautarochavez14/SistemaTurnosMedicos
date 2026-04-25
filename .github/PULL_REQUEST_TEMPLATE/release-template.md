@@ -1,13 +1,5 @@
-# 📦 [GRUPO N°X][Actividad Obligatoria N°1] Entrega Final - Release a master
+# 📦 [GRUPO N°6][Actividad Obligatoria N°1] Entrega Final - Release a master
 
-> ⚠️ GitHub permite utilizar diferentes plantillas de Pull Request dependiendo del tipo de rama.
-> Por ejemplo:
-> - Plantillas específicas para ramas `feature/*` (PRs de desarrollo individual hacia `develop`)
-> - Plantillas como esta para ramas `release/*` (PR final desde `release` hacia `master`)
-> 
-> Este archivo es el template que deben utilizar en la Pull Request de entrega final de la actividad.
-
----
 
 ## 🧾 Descripción General de la Entrega
 
