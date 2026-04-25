@@ -37,7 +37,6 @@ Ejemplo: El procedimiento notificar() se comporta diferente si lo invoca un "Pac
 ## Requisitos iniciales del sistema
 
 
-
 **Requisitos Funcionales:**
 
 **RF1 - Gestión de Turnos:** El sistema debe permitir crear, reprogramar y cancelar turnos de manera digital, diferenciar entre tipos de consulta (control o primera vez) para estimar la duración (15 o 30 minutos) y permitir que el paciente notifique una cancelación, la cual debe quedar registrada.
