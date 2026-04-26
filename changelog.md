@@ -1,0 +1,62 @@
+
+# Changelog
+
+Este archivo se actualiza con cada Pull Request para registrar avances y correcciones.
+
+---
+
+## [Unreleased]
+
+### Added
+- [feature/analista-de-Requerimientos] Requisitos iniciales del sistema  
+  PR: [#14](https://github.com/lautarochavez14/SistemaTurnosMedicoss/pull/14) - @vb534 (Análisis de Requerimientos)
+  
+  
+- [feature/diseniador-de-Clases] Creacion de boceto inicial de clases
+  PR: [#15](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/15#issue-4140070067) - @alandox1 (Diseñador de Clases)
+  
+- [feature/modelador-de-Casos-de-Uso] Creacion de casos de uso y desarrollo
+  PR: [#50](https://github.com/lautarochavez14/SistemaTurnosMedicos/issues/50) - @britezacostaalexis-pixel  @lautarochavez14 (Modelador de Casos de Uso)
+
+- [feature/documentador-y-coordinador-de-repositorio] Contenido mergeado correctamente
+  PR: [#33](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/33) - @Lautarochavez14 (Documentador y coordinador de repositorio)
+
+### Changed
+  - [feature/diseniador-de-Clases] Creacion correcta del formato y boceto inicial de clases
+
+  PR: [#23](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/25) - @alandox1 (Diseñador de Clases)
+
+  - [feature/diseniador-de-Clases] Correccion de error al eliminar la carpeta anexos
+  PR: [#28](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/28) - @alandox1 (diseniador de clases)
+
+ - [feature/especialista-en-escenarios-de-casos-de-uso]
+  PR: [#51](https://github.com/lautarochavez14/SistemaTurnosMedicos/issues/51)- @britezacostaalexis-pixel (Especialista en Escenarios de Casos de Uso)
+
+## [Fixed]
+
+- [feature/documentador-y-coordinador-de-repositorio]
+- PR: [#48](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/48) - @lautarochavez14 (documentador y coordinador)
+
+- PR: [#49](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/49) - @britezacostaalexis-pixel (especialista en escenarios de casos de uso)
+
+- [fix/uso-git-local-readme] Corrección de README.md.
+
+  PR: [#58](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/58) -
+  @lautarochavez14 (Documentador y Coordinador de Repositorio)
+
+- [fix/uso-git-local-archivos] Subidos archivos correctamente vía Git local en lugar de drag & drop
+
+  PR: [#60](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/60) - @britezacostaalexis-pixel (Especialista en Escenarios de Casos de Uso)
+
+- [fix/uso-git-local-readme] Correcciones
+
+  PR: [#62](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/62) - @lautarochavez14 (Documentador y Coordinador de Repositorio)
+
+- [fix/actividad-obligatoria-1] Correcciones siguiendo las solicitudes de cambios.
+
+  PR: [#67](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/67) - @eternalnight04
+
+---
+
+## [Release Actividad Obligatoria N°1] - 2026-04-14
+
