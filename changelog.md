@@ -34,17 +34,11 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
 ## [Fixed]
 
-- Se corrigió el uso incorrecto de GitHub web (drag & drop y edición desde navegador), migrando los cambios al flujo correcto con git en terminal.
-- Se reemplazaron commits realizados con "Add files via upload" y "Update README.md" por commits realizados desde ramas locales siguiendo el flujo de trabajo requerido.
-- Se aplicaron las correcciones en una rama `fix/` creada desde `release/actividad-obligatoria-1`.
-- Se creó PR desde la rama de fix hacia `release/actividad-obligatoria-1`.
-
 - [feature/documentador-y-coordinador-de-repositorio]
 - PR: [#48](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/48) - @lautarochavez14 (documentador y coordinador)
 
 - PR: [#49](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/49) - @britezacostaalexis-pixel (especialista en escenarios de casos de uso)
 
-<<<<<<< HEAD
 - [fix/uso-git-local-readme] Corrección de README.md.
 
   PR: [#58](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/58) -
@@ -56,10 +50,12 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
 - [fix/uso-git-local-readme] Correcciones
 
- [#62](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/62) - @lautarochavez14 (Documentador y Coordinador de Repositorio)
-=======
-- [Fixed] Subidos archivos correctamente vía git local en lugar de drag & drop ([#60](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/60))
->>>>>>> 135b172 (docs: corrige entrada en changelog PR #60)
+  PR: [#62](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/62) - @lautarochavez14 (Documentador y Coordinador de Repositorio)
+
+- [fix/actividad-obligatoria-1] Correcciones siguiendo las solicitudes de cambios.
+
+  PR: [#67](https://github.com/lautarochavez14/SistemaTurnosMedicos/pull/67) - @eternalnight04
+
 ---
 
 ## [Release Actividad Obligatoria N°1] - 2026-04-14

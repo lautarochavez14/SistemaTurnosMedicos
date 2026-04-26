@@ -1,88 +1,73 @@
 # Anexos - Introducción al Diseño Orientado a Objetos
 - ¿Qué es el Paradigma Orientado a Objetos (POO)?
+
 El Paradigma Orientado a Objetos (POO) es un paradigma basado en la organización del código en objetos, que representan entidades del mundo real.
 Es importante porque permite crear software modular, reutilizable y fácil de mantener.
 
 
 ## Los cuatro fundamentos de POO
+
 - Abstracción:
   
-Es la capacidad de representar elementos del mundo real en el código.
-Ejemplo: Un "Auto" puede representarse con atributos (marca, modelo) y métodos (arrancar, frenar).
+Es la capacidad de representar elementos del mundo real en el código mediante la división entre distintos elementos más sencillos de entender, como los atributos que lo componen y los procedimientos que puede realizar.
+Ejemplo: La entidad "Turno" tiene distintos atributos, como fecha, hora, estado, etc.
 
 - Encapsulamiento:
   
 Protege los datos de un objeto, permitiendo acceso solo a través de métodos específicos.
-Ejemplo: Un "Cajero Automático" no permite acceso directo al dinero, solo mediante transacciones.
+Ejemplo: La entidad "Turno" protege sus datos y solo permite la posibilidad de aprobar sobreturnos por parte de la entidad "Médico".
 
 - Herencia:
   
 Permite que una clase reutilice características de otra.
-Ejemplo: Un "Auto Deportivo" hereda de la clase "Auto", pero añade características como mayor velocidad.
+Ejemplo: "Médico" y "Paciente" heredan de la clase "Persona" al tener ambos atributos como nombre, dni y teléfono.
+
 
 - Polimorfismo:
 
 Permite que una misma acción tenga diferentes comportamientos según el objeto.
-Ejemplo: Un "Animal" puede hacer un sonido, pero cada tipo de animal emite un sonido diferente (perro: ladrido, gato: maullido).
-## Requisitos iniciales del sistema
+Ejemplo: El procedimiento notificar() se comporta diferente si lo invoca un "Paciente" (WhatsApp) a que lo invoque el propio sistema (registro interno de auditoría).
+
+
+## Link al NotebookLM
 
 [NotebookLM](https://notebooklm.google.com/notebook/c6fb2197-0990-4141-9561-90868718a7fb)
 
-**Requisitos Funcionales (RF1):**
 
-* Gestión de Turnos:
+## Requisitos iniciales del sistema
 
-  * Crear, reprogramar y cancelar turnos de manera digital.
- 
-  * Diferenciar entre tipos de consulta (control o primera vez) para estimar la duración (15 o 30 minutos).
- 
-  * Permitir que el paciente notifique una cancelación, la cual debe quedar registrada.
 
-* Gestión de la Agenda:
+**Requisitos Funcionales:**
 
-  * Visualizar la agenda por profesional de forma diaria y semanal.
- 
-  * Bloquear horarios por vacaciones, feriados, reuniones o actividades fijas del profesional (como clases los jueves).
- 
-  * Manejar la disponibilidad base del profesional y excepciones (como guardias matutinas variables).
+**RF1 - Gestión de Turnos:** El sistema debe permitir crear, reprogramar y cancelar turnos de manera digital, diferenciar entre tipos de consulta (control o primera vez) para estimar la duración (15 o 30 minutos) y permitir que el paciente notifique una cancelación, la cual debe quedar registrada.
 
-* Control de Conflictos y Sobreturnos:
+**RF2 - Gestión de la Agenda:** El sistema debe permitir visualizar la agenda por profesional de forma diaria y semanal, bloquear horarios por vacaciones, feriados, reuniones o actividades fijas del profesional (como clases los jueves) y manejar la disponibilidad base del profesional y excepciones (como guardias matutinas variables).
 
-  * Evitar la superposición de turnos (doble reserva) de forma automática.
- 
-  * Permitir el agregado manual de sobreturnos (máximo dos por día), solo bajo autorización del profesional.
+**RF3 - Control de Conflictos y Sobreturnos:** El sistema debe impedir la superposición de turnos (doble reserva) de forma automática y permitir el agregado manual de sobreturnos (máximo dos por día), solo bajo autorización del profesional.
 
-* Seguimiento de Pacientes en Sala:
+**RF4 - Seguimiento de Pacientes en Sala:** El sistema debe registrar la llegada física del paciente al consultorio (marcar como "presente") y, de ser posible, la hora real de llegada para compararla con el turno programado.
 
-  * Registrar la llegada física del paciente al consultorio (marcar como "presente").
- 
-  * Registrar, de ser posible, la hora real de llegada para compararla con el turno programado.
+**RF5 - Notificaciones y Alertas:** El sistema debe enviar recordatorios automáticos el día anterior (preferentemente vía WhatsApp), al mismo tiempo que debe de notificar automáticamente cambios o cancelaciones a los pacientes.
 
-* Notificaciones y Alertas:
+**RF6 - Auditoría y Registro:** El sistema debe mantener un historial de cambios de turno para resolver disputas sobre quién realizó modificaciones y modelar conceptualmente una lista de espera para cubrir lugares que se liberen.
 
-  * Enviar recordatorios automáticos el día anterior (preferentemente vía WhatsApp).
- 
-  * Notificar automáticamente cambios o cancelaciones a los pacientes.
+----
 
-* Auditoría y Registro:
+**Requisitos No Funcionales:**
 
-  * Mantener un historial de cambios de turno para resolver disputas sobre quién realizó modificaciones.
- 
-  * Modelar conceptualmente una lista de espera para cubrir lugares que se liberen.
+**RNF1 - Usabilidad:** El sistema debe tener una interfaz simple y fácil de usar, especialmente para el médico, evitando procesos de aprendizaje complejos.
 
-**Requisitos No Funcionales (RNF1):**
+**RNF2 - Escabilidad/Extensibilidad:** El diseño inicial debe ser extensible para permitir la incorporación de más profesionales y salas en el futuro, aunque el MVP sea para uno solo.
 
-* Usabilidad: El sistema debe tener una interfaz simple y fácil de usar, especialmente para el médico, evitando procesos de aprendizaje complejos.
+**RNF3 - Integridad de Datos:** El modelo debe asegurar el encapsulamiento, impidiendo que se manipule la lista de turnos sin pasar por la lógica de verificación de disponibilidad de la agenda.
 
-* Escabilidad/Extensibilidad: El diseño inicial debe ser extensible para permitir la incorporación de más profesionales y salas en el futuro, aunque el MVP sea para uno solo.
+**RNF4 - Oportunidad (Time-To-Market):** El Producto Mínimo Viable (MVP) debe estar funcional para principios de julio.
 
-* Integridad de Datos: El modelo debe asegurar el encapsulamiento, impidiendo que se manipule la lista de turnos sin pasar por la lógica de verificación de disponibilidad de la agenda.
+**RNF5 - Prioridad de Modelo sobre Diseño:** En la fase inicial, se busca la corrección del modelo de dominio y su funcionamiento lógico antes que un diseño visual perfecto.
 
-* Oportunidad (Time-To-Market): El Producto Mínimo Viable (MVP) debe estar funcional para principios de julio.
+**RNF6 - Mantenibilidad:** Se requiere un diseño basado en un dominio claro (clases y responsabilidades bien definidas) para facilitar iteraciones futuras sin "parches".
 
-* Prioridad de Modelo sobre Diseño: En la fase inicial, se busca la corrección del modelo de dominio y su funcionamiento lógico antes que un diseño visual perfecto.
 
-* Mantenibilidad: Se requiere un diseño basado en un dominio claro (clases y responsabilidades bien definidas) para facilitar iteraciones futuras sin "parches".
 ## Casos de uso
 
 
