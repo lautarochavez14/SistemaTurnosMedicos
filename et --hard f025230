@@ -1,0 +1,149 @@
+[33m948eae0[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfix/uso-git-local-archivos[m[33m, [m[1;32mrelease/actividad-obligatoria-1[m[33m)[m Merge branch 'release/actividad-obligatoria-1' into fix/uso-git-local-archivos
+[33mf8b0d64[m fix: actualización README por uso de git local
+[33m62f5e39[m fix: actualización README
+[33md359c7a[m Merge branch 'release/actividad-obligatoria-1' into fix/uso-git-local-archivos
+[33mca7d642[m Merge pull request #61 from lautarochavez14/fix/changelog-correcciones
+[33m6a8d4a8[m Merge branch 'release/actividad-obligatoria-1' of https://github.com/lautarochavez14/SistemaTurnosMedicos into fix/changelog-correcciones
+[33m2ccb481[m Update changelog.md
+[33mcd818bb[m Update changelog.md
+[33mb5035d1[m Update changelog.md
+[33m90b58c3[m Update changelog.md
+[33mcc89829[m fix: documenta correcciones de metodología git en changelog
+[33mafe57a6[m fix: documenta correcciones de metodología git en changelog
+[33m3decccc[m fix: documenta correcciones de metodología git en changelog
+[33m135b172[m docs: corrige entrada en changelog PR #60
+[33mf025230[m fix: sube archivos via git local en lugar de drag & drop
+[33m95b87ff[m Merge pull request #58 from lautarochavez14/fix/uso-git-local-readme
+[33m970c965[m Merge branch 'release/actividad-obligatoria-1' into fix/uso-git-local-readme
+[33mc5d15d2[m fix: actualización README
+[33m7fbda35[m docs: update README en release
+[33mbdda73b[m docs: update README en release
+[33m32735b9[m Update changelog.md
+[33mcfb8b21[m Update changelog.md
+[33m18d5931[m Update changelog.md
+[33m0e38927[m Update changelog.md
+[33m48c65db[m Update changelog.md
+[33mec8fc76[m Update changelog.md
+[33mc2c9fd7[m Merge pull request #49 from lautarochavez14/fix/introduccion-poo
+[33m0fbc606[m Update changelog.md
+[33ma55f17f[m Merge pull request #48 from lautarochavez14/fix/actividad-obligatoria-1
+[33ma826fa1[m[33m ([m[1;31morigin/fix/actividad-obligatoria-1[m[33m)[m Update README.md
+[33mcda279b[m feat: completa A2 - Escenarios de casos de uso (CU-01 a CU-05)
+[33m81e081c[m Update changelog.md
+[33mf6b08c3[m[33m ([m[1;31morigin/fix/migracion-final[m[33m, [m[1;32mfix/nombre-descriptivo-del-fix[m[33m)[m Update changelog.md
+[33m5d5b242[m Update README.md
+[33m2c2e5f0[m[33m ([m[1;31morigin/fix/readme[m[33m, [m[1;31morigin/fix/changelog[m[33m)[m Update README.md
+[33m8d8e6f3[m Merge pull request #35 from alandox1/feature/documentador-y-coordinador-de-repositorio
+[33m38b11ea[m[33m ([m[1;31morigin/feature/documentador-y-coordinador-de-repositorio[m[33m)[m Add release template for pull requests
+[33m615109d[m Update feature-template.md
+[33md7ebc3a[m Rename release-template.md.txt to release-template.md
+[33mda6e712[m Rename feature-template.md.txt to feature-template.md
+[33ma2ece33[m Add files via upload
+[33me61e959[m Merge pull request #34 from alandox1/feature/diseniador-de-Clases
+[33mdda10ae[m Merge pull request #33 from alandox1/feature/documentador-y-coordinador-de-repositorio
+[33m2a25116[m Fix pull request links in changelog.md
+[33m9334dae[m Update changelog with new merge details
+[33mb868d2f[m[33m ([m[1;31morigin/feature/diseniador-de-Clases[m[33m)[m Merge pull request #32 from alandox1/feature/analista-de-Requerimientos
+[33mf14d30b[m[33m ([m[1;31morigin/feature/analista-de-Requerimientos[m[33m)[m Update changelog with new feature entries
+[33m3af0597[m Fix PR reference in changelog
+[33m202ea47[m Merge pull request #31 from alandox1/feature/diseniador-de-Clases
+[33m1cc10e1[m Merge branch 'feature/analista-de-Requerimientos' into feature/diseniador-de-Clases
+[33mde5b5b0[m Merge pull request #28 from alandox1/feature/diseniador-de-Clases
+[33md34218e[m Merge pull request #29 from alandox1/feature/diseniador-de-Clases
+[33m94908b5[m Delete Anexos directory
+[33ma9311fb[m Merge branch 'feature/documentador-y-coordinador-de-repositorio' into feature/diseniador-de-Clases
+[33m099199f[m Add entry for fixing error in anexos folder deletion
+[33mdf4eb86[m Update introduction and requirements in anexos
+[33m70fe1e1[m Fix link formatting in anexos.md
+[33m3f81038[m Fix formatting in anexos.md
+[33m632adfe[m Update link path for introduction annex
+[33m802b933[m Fix link to anexos in README.md
+[33m0bc43c3[m Delete anexos.md
+[33m54ed09e[m Delete introduccion.md
+[33m93911bf[m Add introduction to Object-Oriented Design
+[33mce86fb5[m Create anexos.md with introduction link
+[33mee99bdc[m Add files via upload
+[33m3c07a53[m Merge pull request #25 from alandox1/feature/diseniador-de-Clases
+[33m5900e33[m Merge branch 'develop' into feature/diseniador-de-Clases
+[33m5564cbb[m Update PR link in changelog.md
+[33m2fc84ee[m Update changelog.md
+[33mf2e31c8[m Add files via upload
+[33m9cc6642[m Update introduccion.md
+[33mc9dbdd0[m Delete diagramas/01-diagrama-clases directory
+[33me034104[m Add files via upload
+[33mc16e524[m Delete 01-diagrama-clases directory
+[33mf3ecc6d[m Rename Anexos/changelog.md to changelog.md
+[33m4b9ccf3[m Rename changelog.md to Anexos/changelog.md
+[33m909fa8d[m Fix README formatting and remove duplicate section
+[33mb71fed0[m Add team members section to README
+[33md8d2aa3[m Merge pull request #16 from alandox1/vb534-patch-1
+[33m19e8809[m Fix link to Anexos in README.md
+[33m6d5bac0[m Clean up changelog by removing empty sections
+[33me25eda5[m Modify release date and clean up changelog
+[33m1570767[m Fix PR link for feature/diseniador-de-Clases
+[33m80bb7bc[m Fix PR link for modelador-de-Casos-de-Uso feature
+[33m27041e0[m Add section header and link to introduction document
+[33me2c3510[m Rename anexos.md.txt to anexos.md
+[33m2775d17[m Add files via upload
+[33me8f9c22[m Delete anexos directory
+[33mc4556d5[m Merge pull request #20 from alandox1/lautarochavez14-patch-2-1
+[33mc1625a4[m[33m ([m[1;31morigin/lautarochavez14-patch-2-1[m[33m)[m Rename anexos.md to anexos/anexos.md
+[33me99b599[m Creacion de carpetas de diagramas
+[33m71f4099[m Merge pull request #18 from alandox1/lautarochavez14-patch-1
+[33m7ab74c1[m[33m ([m[1;31morigin/lautarochavez14-patch-1[m[33m)[m Rename introduccion.md to Anexos/introduccion.md
+[33m60ded89[m[33m ([m[1;31morigin/vb534-patch-1[m[33m)[m Update changelog.md
+[33m959fb99[m Update README.md
+[33m9f18147[m Merge pull request #15 from alandox1/feature/diseniador-de-Clases
+[33m3cf29c6[m Update changelog.md
+[33m3cd684c[m Update changelog.md
+[33m584a316[m Merge branch 'develop' into feature/diseniador-de-Clases
+[33mf357df4[m Update changelog.md
+[33mdd18e35[m Update changelog.md
+[33m1c609dd[m Merge pull request #14 from alandox1/feature/analista-de-Requerimientos
+[33m3c48ad9[m Merge branch 'develop' into feature/analista-de-Requerimientos
+[33m0e2fb99[m Merge pull request #13 from alandox1/feature/modelador-de-Casos-de-Uso
+[33m702512c[m Merge branch 'develop' into feature/modelador-de-Casos-de-Uso
+[33mba3d531[m Update changelog.md
+[33mbafb0c1[m Update changelog.md
+[33md04166b[m Update changelog.md
+[33m4756398[m Update changelog.md
+[33m9216f90[m Update changelog.md
+[33m51f179d[m Update introduccion.md
+[33mf64d06f[m Merge branch 'develop' into feature/modelador-de-Casos-de-Uso
+[33m9e0f793[m Update changelog.md
+[33m2aa7f49[m Update introduccion.md
+[33m2987534[m Update changelog.md
+[33m172ca84[m Merge pull request #11 from alandox1/feature/Documentador-y-coordinador-de-repositorio
+[33m4a072ce[m Update introduccion.md
+[33maac87ff[m Update introduccion.md
+[33m4d9b351[m NoteBookLM + Requisitos
+[33m4d4b7a2[m Update changelog by removing and modifying entries
+[33m3903bd8[m Update changelog with new features and documentation
+[33m6c23aca[m Update changelog with new feature descriptions
+[33mb94fb96[m Update changelog with new release information
+[33m9cfde2e[m Update actor roles from 'Secretaria' to 'Recepcionista'
+[33m8ed5dbb[m Continuacion de CAsos de uso
+[33mcd5a36a[m Update introduccion.md
+[33m26a185e[m Update case use formatting in introduccion.md
+[33m1dff4de[m Update changelog.md
+[33m22698ba[m Avance de Casos de uso
+[33m713cfdc[m Create changelog.md
+[33mf06e750[m Create changelog.md
+[33m445effb[m Create changelog.md
+[33mb46a564[m Registro de casos de uso
+[33mfbbc8cd[m Prueba
+[33m1c58974[m Update introduccion.md
+[33m8ebda32[m Creacion de titulos de  Introduccion.md
+[33m04f54b5[m Fix formatting for link in anexos.md
+[33mc780e14[m Add link to 'Introducción al Diseño Orientado a Objetos'
+[33m6ac40d4[m Fix link to anexos in README
+[33mfc115ed[m Add link to Anexo in README
+[33m754cec7[m Add introduction section for Object-Oriented Design
+[33m098d6a1[m Add initial Anexos section to anexos.md
+[33mebd881d[m Update README with project details and team info
+[33mcb0a213[m Update README.md
+[33m148773d[m Delete introduccion.md
+[33mda9bc3c[m Create introduccion.md
+[33m6347a48[m Update project title in README
+[33m1558fd2[m Update README.md
+[33ma4b9d04[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m Create README.md

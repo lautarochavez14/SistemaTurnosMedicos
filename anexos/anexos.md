@@ -1,2 +1,5 @@
 # Anexos
-* [Anexo - Introducción al Diseño Orientado a Objetos](/anexos/introduccion.md)
+
+- [Anexo - Introducción al Diseño Orientado a Objetos](./introduccion.md)
+- [Anexo - Principios SOLID](./principios-solid.md)
+..

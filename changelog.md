@@ -37,7 +37,8 @@ Este archivo se actualiza con cada Pull Request para registrar avances y correcc
 
 ### Fixed
 
----
-
+- [#72](https://github.com/britezacostaalexis-pixel/SistemaTurnosMedicos/pull/72) 
+- [#73](https://github.com/britezacostaalexis-pixel/SistemaTurnosMedicos/pull/73)
+- [#74](https://github.com/britezacostaalexis-pixel/SistemaTurnosMedicos/pull/74)
 ## [Release Actividad Obligatoria N°1] - 2026-08-10
 
